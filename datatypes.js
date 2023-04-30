@@ -7,3 +7,4 @@ console.log(typeof m);
 console.log(typeof -78);
 console.log(typeof []);
 console.log(typeof {});
+

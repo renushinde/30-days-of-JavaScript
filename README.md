@@ -1,4 +1,9 @@
 # 30-days-of-JavaScript
+
+
+
+
+
 Day 1 Exercises
 
 1. Write a single line comment which says, comments can make code readable
