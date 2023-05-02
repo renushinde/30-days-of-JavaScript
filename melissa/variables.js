@@ -15,17 +15,17 @@ let isSunny = false;
 
 
 // 8. Declare variables to store your first name, last name, marital status, country and age in multiple lines
-let firstName = "Melissa";
-let lastName = "Averinos";
-let maritalStatus = "married";
-let country = "United States";
-let age = 48;
+// let firstName = "Melissa";
+// let lastName = "Averinos";
+// let maritalStatus = "married";
+// let country = "United States";
+// let age = 48;
 
 // 9. Declare variables to store your first name, last name, marital status, country and age in a single line
 
 //nah
 
 // 10. Declare two variables myAge and yourAge and assign them initial values and log to the browser console.
-let myAge = 48;
-let yourAge = 62;
-console.log(myAge, yourAge);
+// let myAge = 48;
+// let yourAge = 62;
+// console.log(myAge, yourAge);
