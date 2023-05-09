@@ -188,3 +188,13 @@ let loveSentence = 'Love is the best thing in this world. Some found their love 
 
 // Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
 
+
+// 5. Create datatypes.js file and use the JavaScript typeof operator to check different data types. Check the data type of each variable
+console.log(typeof false);
+console.log(typeof 48);
+console.log(typeof "hi");
+console.log(typeof m);
+console.log(typeof -78);
+console.log(typeof []);
+console.log(typeof {});
+
