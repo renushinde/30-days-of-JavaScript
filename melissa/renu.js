@@ -111,3 +111,47 @@ const greetings = (name = 'Friend') => {
 
 console.log(greetings())
 console.log(greetings('Asabeneh'))
+
+
+
+
+
+
+
+// appendToString
+// The function should return a new string which consists of the second string appended to the first string.
+
+
+function appendToString(string1, string2){
+  // return string1 + string2;
+  const newString = string1.concat(string2);
+  return newString;
+}
+
+console.log(appendToString("Hello", " World!")); 
+
+appendToString("Hello", " World!"); // "Hello World!"
+appendToString("Foo", "bar"); // "Foobar"
+appendToString("bar", "Foo"); // "barFoo"
+appendToString("", "test"); // "test"
+appendToString("other test", ""); // "other test"
+
+// Prob2: charAt
+// Write a function called charAt which accepts a string and an index (number) and returns the character at that index.
+// The function should return an empty string if the number is greater than the length of the string.
+// Do not use the built in charAt method
+// charAt('awesome', 2) // 'e'
+// charAt('awesome', 12) // ''
+
+const charAt = (string, index) => {
+ for(let i = 0; i < string.length; i++) {
+ if(i === index) {
+  return string[i];
+ }
+ else if (i>string.length){
+  return "" ;
+ }
+}
+}
+
+console.log(charAt('awesome', 2))
