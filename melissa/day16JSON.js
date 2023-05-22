@@ -1,3 +1,6 @@
+//  Exercises Level 1
+
+
 const skills = ['HTML', 'CSS', 'JS', 'React','Node', 'Python']
 let age = 250;
 let isMarried = true
@@ -8,6 +11,8 @@ const student = {
   isMarried:true,
   skills:['HTML', 'CSS', 'JS', 'React','Node', 'Python', ]
 }
+
+
 const txt = `{
     "Alex": {
         "email": "alex@alex.com",
@@ -104,3 +109,23 @@ const txt = `{
     }
 }
 `
+
+// Change skills array to JSON using JSON.stringify()
+const skillsJSON = JSON.stringify(skills);
+console.log(skillsJSON);
+// Stringify the age variable
+console.log(JSON.stringify(student.age));
+// Stringify the isMarried variable
+console.log(JSON.stringify(student.isMarried))
+// Stringify the student object
+console.log(JSON.stringify(student));
+// Exercises Level 2
+// Stringify the students object with only firstName, lastName and skills properties
+console.log(JSON.stringify(student, ['firstName', 'lastName', 'skills'], 4));
+// Exercises Level 3
+// Parse the txt JSON to object.
+const object = JSON.parse(txt);
+console.log(object);
+// Find the user who has many skills from the variable stored in txt.
+// ???how would i do this? 
+// let mostSkills = ....??? txt  maybe access each object and the skills length, compare
