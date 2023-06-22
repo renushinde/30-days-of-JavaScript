@@ -70,11 +70,16 @@ const unique = new Set(langArray);
 console.log(unique);
 
 // *** Use the countries data to find the 10 most spoken languages:
+console.log(langArray);
+const result = langArray.reduce((acc, item) => {
+ if(!acc[item]){
+acc + (acc[item] = 0)
 
-const result = langArray.reduce(accum, item => {
-  ![item] ? [item] = accum : [item] = accum++;
+ } 
+ acc[item]++
+ return acc;
 }
-  ,{}) ;
+  ,{});
 
   console.log(result);
 
